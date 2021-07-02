@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+
+<body>
+    <script type="text/javascript" src="/Person.js"></script>
+    <iframe width="0" height="0" src="/iframe.html"></iframe>
+
+    <script type='text/javascript'>
+        const iframe = document.querySelector('iframe');
+        iframe.onload = function(){
+            const arr = iframe.contentWindow.arr;
+            const jobs = iframe.contentWindow.jobs;
+            
+            console.log('Person.isPerson(jobs)',Person.isPerson(jobs))
+        }
+    </script>
+
+</body>
+
+</html>
