@@ -1,1 +1,8 @@
-https://docs.google.com/presentation/d/11D-AeiZ2pgxQ45PJ3gVDb2O_Ubin717UBqLeBwRq_r4/edit#slide=id.p
+
+
+
+| Folder & File      | Description | 
+| :---        |    :----:   |
+| generate-huffman-table   |  根据输入内容生成 huffman 表 |
+| hpack   |  演示 hpack 编码 & 解码 |
+
